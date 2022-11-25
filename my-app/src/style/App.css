@@ -1,0 +1,98 @@
+@font-face {
+    font-family: myFontGrey;
+    src: url('../fonts/Proxima Nova Thin.otf')  format('truetype');
+}
+
+@font-face {
+    font-family: fontForTitle;
+    src: url('../fonts/Proxima Nova Alt Bold.otf') format('truetype');
+}
+body{
+    @apply bg-slate-300
+}
+    .lg-main-block{
+        @apply  flex  items-center justify-center px-[9px] pt-[9px] pb-[17px]  sm:px-64 sm:py-7 sm:box-border
+    }
+    .lg-wrapper{
+        @apply flex items-center justify-center flex-col relative w-[396px] sm:w-[1400px]
+    }
+    .lg-block-btn{
+        @apply w-full h-[40px]   mb-[16px] sm:w-[515px]  sm:h-[52px]
+    }
+    .lg-list-job{
+        @apply h-fit w-full mb-[26px]  box-border  w-[396px] sm:w-[1400px] sm:mb-12
+    }
+    .lg-job-item{
+        @apply    relative bg-white  h-[206px] w-[396px] flex flex-col gap-5 py-[24px] px-[16px] box-border rounded-lg mb-[8px]  sm:w-[1400px] sm:h-[164px] sm:flex-row  sm:bg-[#EFF0F5]
+    }
+    .lg-main-info{
+        @apply  flex flex-row gap-[19px] h-[135px] w-[363px]  mt-[22px] sm:w-[1198px] sm:h-[116px] sm:gap-[26px]
+    }
+    .lg-add-info{
+        @apply  w-[279px] h-[17px]  flex flex-row self-end justify-between items-center absolute right-[16px] top-[13px]  sm:flex-col sm:w-[138px] sm:h-[116px] sm:justify-between sm:items-end sm:text-right
+    }
+    .lg-item-img{
+        @apply  h-[66px]  w-[66px] box-border relative sm:h-[85px] w-[85px]
+
+    }
+    .lg-item-text{
+        @apply  w-full  h-[135px] flex flex-col gap-[8px] box-border sm:h-[116px]
+    }
+    .lg-item-title{
+        @apply   w-[278px] h-[28px] truncate  sm:h-[30px] sm:w-[712px]
+    }
+    .lg-item-name{
+        @apply   w-[279px] h-[30px] sm:h-[25px]
+    }
+    .lg-item-address{
+        @apply  w-[140px] h-[25px] sm:w-[270px] sm:h-[25px]
+    }
+    .lg-btn{
+        @apply min-w-[50px] h-[52px]  flex justify-center items-center hover:text-cyan-700 hover:border-b-[3px] hover:border-cyan-700
+    }
+    .lg-list-btn{
+        @apply flex flex-row relative  w-[99999px]
+    }
+    .lg-btn-arrow{
+        @apply w-[68px] h-[52px] absolute
+    }
+    .ul-wrapper{
+        @apply max-w-[250px] overflow-hidden sm:max-w-[350px]
+    }
+
+
+
+
+/*font class*/
+.font {
+    font-family: myFontGrey, sans-serif;
+    font-size: 16px;
+    color: #878D9D;
+    font-weight: 400;
+    line-height: 25px;
+    font-style: normal;
+    letter-spacing: 0.23619px;
+}
+.font-mb{
+    font-family: myFontGrey, sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.206667px;
+    color: #878D9D;
+}
+.font-for-title{
+    font-family: fontForTitle,sans-serif;
+    font-size: 20px;
+    color: #3A4562;
+    letter-spacing: -0.625px;
+    font-style: normal;
+    font-weight: 700;
+}
+.font-for-title-mb{
+    font-family: fontForTitle,sans-serif;
+    font-size:18px;
+    color: #3A4562;
+    line-height: 24px;
+    letter-spacing: -0.5625px;
+}
+

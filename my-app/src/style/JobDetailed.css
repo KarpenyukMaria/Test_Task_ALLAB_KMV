@@ -1,0 +1,163 @@
+/*fonts*/
+.font-desc{
+    @apply font-robotoRegular text-[18px] leading-[24px] tracking-[-0.56px]
+}
+.font-h2{
+    @apply  font-proximaNovaBold text-[20px] leading-[25px] tracking-[-0.63px]
+}
+.font-h1{
+    @apply font-proximaNovaBold tracking-[0.41px] text-[28px] leading-[34px] text-[#3A4562]
+}
+.font-card{
+    @apply font-proximaNovaBold  text-[16px] leading-[16px] tracking-[-0.46px]
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7mxKOzY.woff2) format('woff2');
+}
+
+/*class in blocks*/
+body{
+    /*@apply  bg-white*/
+}
+.lg-main-block-detailed{
+    @apply   w-full h-full relative text-[#3A4562] box-border mx-auto  flex justify-center items-center px-[15px] pt-[24px] pb-[37px] lg:pt-[56px] lg:pr-[315px] lg:pb-[309px] lg:pl-[347px]
+}
+.lg-wrapper-detailed{
+    @apply  w-[382px] h-[2894px] flex flex-col  gap-[63px]  m-0 p-0 lg:w-[1246px] lg:h-[1761px] lg:flex-row lg:gap-[70px] lg:items-start
+}
+.lg-job-detailed-block{
+    @apply  w-full h-[2330px] lg:w-[774px] lg:h-[1761px]
+}
+/*contact-block*/
+.lg-contact-block{
+    @apply  w-[383px] h-[502px]  flex flex-col gap-[21px] box-border text-[#E7EAF0] lg:w-[402px] lg:h-[436px] lg:gap-[0px]
+}
+.lg-title{
+    @apply block w-full h-[44px] border-b border-[#3A4562] lg:hidden
+}
+.lg-wrapper-rounded{
+    @apply flex flex-col h-[458px] rounded-lg pl-[8px] lg:pl-[0px]
+}
+.lg-contact {
+    @apply   h-1/2 w-[372px] flex flex-col items-center justify-center bg-[#2A3047]  relative truncate lg:w-full
+}
+.lg-contact-wrapper{
+    @apply  h-[156px] w-[244px] lg:w-[277px] lg:z-[52232] lg:h-[170px]
+}
+.lg-contact-title{
+   @apply   w-full h-[41px] mb-[17px] font-proximaNovaBold  text-[16px] leading-[19.5px] tracking-[0.24px] lg:h-[54px] lg:mb-[7px] lg:text-[20px] lg:leading-[25px] lg:tracking-[-0.63px]
+}
+.lg-contact-address{
+    @apply  w-full h-[50px] mb-[7px] lg:h-[54px]
+}
+.lg-contact-phone{
+    @apply  w-[172px] h-[46px] lg:w-[195px] lg:h-[48px]
+}
+
+
+.lg-circle{
+    @apply hidden lg:block lg:w-[273px] lg:h-[273px] lg:rounded-full lg:bg-[#202336]  lg:absolute   lg:right-[calc(50%_-_8px)]
+}
+/*font*/
+.font-for-contact{
+    @apply font-robotoRegular text-[16px]  leading-[24px] tracking-[-0.56px] whitespace-normal lg:text-[18px]
+}
+.lg-map{
+    @apply  h-1/2 w-full relative
+}
+.google-map{
+ @apply  w-full h-full
+}
+.pin{
+    @apply flex  flex-col items-center
+}
+.pin-icon{
+    @apply w-[36px] h-[56px] text-[#D8D8D8] text-xl
+}
+
+
+
+.lg-btn-back{
+    @apply hidden w-[213px] h-[50px] absolute left-[258px] bottom-[162px]  rounded-[8px] bg-slate-200 text-[#384564] uppercase pt-[18px] pr-[26px] pb-[16px] pl-[23px] text-xs items-center justify-items-center lg:flex
+}
+/*menu*/
+.lg-menu{
+    @apply  w-full h-[93px] flex flex-col mb-[32px] text-teal-900  border-b lg:w-[723px] lg:h-[44px] lg:flex-row lg:items-start lg:justify-between lg:mb-[39px]
+}
+.lg-menu-logo{
+    @apply   w-[186px] h-[34px] mb-[24px] lg:mb-[0px]
+}
+.wrapper-btn{
+    @apply  flex flex-row
+}
+.lg-btn-menu{
+    @apply h-[32px] flex flex-row justify-center items-center  text-base tracking-[-0.56px] text-[#38415DD1]  font-robotoRegular lg:text-lg lg:text-[#3A4562]
+}
+/*their two on page*/
+.lg-btn-apply{
+    @apply w-[127px] h-[52px] rounded-[8px] bg-cyan-900 text-white uppercase font-proximanovaThin text-xs font-semibold
+}
+.lg-job-detailed-block{
+    @apply  flex flex-col justify-start
+}
+
+/*class for component InfoJobBlock*/
+.lg-wrapper-description{
+    @apply  w-[374px]  h-[1374px] lg:h-[939px] lg:ml-[-19px] lg:pl-[19px] lg:pr-[53px] lg:w-[793px]
+}
+.lg-jobName-and-salary{
+    @apply  w-full h-[230px] flex flex-col lg:h-[120px] lg:flex-row lg:justify-between
+}
+.lg-name{
+    @apply  w-[363px] h-[120px] mr-[36px] font-proximaNovaBold text-[24px] leading-[30px] tracking-[-0.75px] lg:w-[501px] lg:mr-[0px]
+}
+.lg-salary{
+    @apply  w-[161px] h-[50px] font-proximaNovaBold text-[20px] leading-[25px] tracking-[-0.625px] text-right self-end lg:self-auto lg:text-left
+}
+.lg-salary-v{
+    @apply font-robotoRegular text-base tracking-[-0.56px]
+}
+.lg-job-posted{
+    @apply  w-[300px] h-[25px] mb-[14px] text-[#38415D5B] lg:mb-[7px] lg:mt-[7px]
+}
+.lg-job-title{
+    @apply   w-[360px]  h-[150px] mb-[43px] lg:w-[721px]  lg:mb-[40px]
+}
+.lg-job-descriptions{
+    @apply   w-full h-[698px]   mb-[15px] lg:mb-[40px] lg:w-[721px] lg:h-auto
+}
+.lg-job-benefits{
+    @apply  h-auto w-full  lg:w-[721px]  h-auto
+}
+/*component additional block*/
+
+.lg-additional-block{
+    @apply  w-full  h-[382px] mb-[63px]  box-border lg:w-[704px] lg:h-[280px] lg:mb-[87px]
+}
+.lg-employment-type{
+    @apply mb-[23px]
+}
+.lg-benefits{
+    @apply  box-border
+}
+.lg-header{
+    @apply  w-full h-[45px] mb-[15px] flex items-start lg:border-b lg:border-[#3A4562] lg:h-[43px]
+}
+.lg-small-headers{
+    @apply  w-[295px]  h-[24px] mb-[10px] lg:w-[363px]
+}
+.lg-cards{
+    @apply  flex flex-row
+}
+.lg-card{
+    @apply   w-[122px] h-[50px] mr-[8px] rounded-[8px] flex items-center justify-end pr-[10px] lg:w-[220px] lg:justify-center lg:pr-[0px]
+}
+
+/*component BlockImages*/
+.lg-attached-images{
+    @apply   w-full  h-[181px] box-border  lg:w-[702px]
+}
+.lg-images{
+    @apply  flex flex-row box-border w-full
+}
